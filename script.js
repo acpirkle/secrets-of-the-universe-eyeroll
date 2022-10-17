@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import { get } from 'axios';
 
 /**
  * @function getVerse
@@ -7,10 +7,10 @@ const fetch = require('node-fetch');
  * @returns {JSON} object containing a random bible verse
  */
 async function getVerse() {
-  const verse = await fetch(
+  const verse = await get(
     "https://labs.bible.org/api/?passage=random&type=json"
   );
-  return verse.json();
+  return verse.data;
 }
 
 /**

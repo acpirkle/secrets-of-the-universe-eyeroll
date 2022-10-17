@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/acpirkle/secrets-of-the-universe-eyeroll#readme",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "axios": "^1.1.3"
   }
 }
