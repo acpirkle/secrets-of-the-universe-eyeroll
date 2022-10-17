@@ -42,4 +42,4 @@ async function createVerses() {
 };
 
 
-createVerses().then(data => console.log(data.join(" ")));
+createVerses().then(data => console.log(data.join("\n")));
