@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Bible verse masher. Takes up to ten verses and randomly concatenates them together. Basically MadLibs with bible verses",
   "main": "script.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
